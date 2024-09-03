@@ -55,7 +55,7 @@ def show_contact_form():
 
 col1, col2 = st.columns(2, gap="small", vertical_alignment="top")
 with col1:
-    st.image("C:/Users/ELCOT/PycharmProject/pythonProject/web application/assets/Chitra.jpg", width=200)
+    st.image("C:/Users/ELCOT/PycharmProject/pythonProject/Web-Application/assets/Chitra.jpg", width=200)
 
 with col2:
     st.title("Chitra Bala", anchor=False)
