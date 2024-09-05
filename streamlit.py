@@ -11,12 +11,12 @@ about_page =st.Page(
     default=True,
 )
 project_1_page = st.Page(
-    "https://github.com/ChitraBala-code/Web-Application/blob/main/deploy/sales_dashboard.py",
+    "deploy/sales_dashboard.py",
     title="Sales Dashboard",
     icon=":material/bar_chart:",
 )
 project_2_page = st.Page(
-    "https://github.com/ChitraBala-code/Web-Application/blob/main/deploy/chatbot.py",
+    "deploy/chatbot.py",
     title="Chat Bot",
     icon=":material/smart_toy:",
 )
