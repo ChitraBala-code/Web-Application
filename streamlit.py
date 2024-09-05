@@ -1,13 +1,5 @@
 import streamlit as st
-import _get_state
 
-state = _get_state()
-
-state.page_config = st.set_page_config(
-    page_title="BPJV SI Database Manager test",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
 # --- PAGE SETUP ---
 about_page =st.Page(
     "C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/deploy/about_me.py",
@@ -43,4 +35,4 @@ st.logo("C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/assets/logo
 st.sidebar.markdown("Made with 😊 by [Chitra](https://youtube.com/@codingisfun)")
 
 pg.run()
-state.sync()
+
