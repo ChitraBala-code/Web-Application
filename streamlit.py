@@ -29,6 +29,7 @@ pg = st.navigation(
         "Projects": [project_1_page, project_2_page],
     }
 )
+st.set_page_config(page_title="Data manager", page_icon=":material/edit:")
 
 # --- SHARED ON ALL PAGES ---
 st.logo("C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/assets/logo1.png")
