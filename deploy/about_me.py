@@ -8,7 +8,7 @@ def is_valid_email(email):
     email_pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+$"
     return re.match(email_pattern, email) is not None
 
-@st.dialog("Contact me")
+@st.experimental_dialog("Contact me")
 def show_contact_form():
     with st.form("Contact form"):
         name = st.text_input("First name")
