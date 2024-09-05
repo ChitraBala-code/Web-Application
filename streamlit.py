@@ -1,5 +1,5 @@
 import streamlit as st
-from SessionState import _get_state
+import _get_state
 
 state = _get_state()
 
