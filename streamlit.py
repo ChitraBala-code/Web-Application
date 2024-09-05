@@ -1,5 +1,8 @@
 import streamlit as st
 
+st.set_page_config(page_title="Data manager", page_icon=":material/edit:", layout="wide",
+                   initial_sidebar_state="auto",
+                   )
 # --- PAGE SETUP ---
 about_page =st.Page(
     "C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/deploy/about_me.py",
@@ -29,7 +32,6 @@ pg = st.navigation(
         "Projects": [project_1_page, project_2_page],
     }
 )
-st.set_page_config(page_title="Data manager", page_icon=":material/edit:")
 
 # --- SHARED ON ALL PAGES ---
 st.logo("C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/assets/logo1.png")
