@@ -34,7 +34,7 @@ pg = st.navigation(
 )
 
 # --- SHARED ON ALL PAGES ---
-st.logo("C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/assets/logo1.png")
+st.logo("assets/logo1.png")
 st.sidebar.markdown("Made with 😊 by [Chitra](https://youtube.com/@codingisfun)")
 
 pg.run()
