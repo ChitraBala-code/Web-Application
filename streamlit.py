@@ -5,7 +5,7 @@ st.set_page_config(page_title="Data manager", page_icon=":material/edit:", layou
                    )
 # --- PAGE SETUP ---
 about_page =st.Page(
-    "/deploy/about_me.py",
+    "Web-Application/deploy/about_me.py",
     title="About Me",
     icon=":material/account_circle:",
     default=True,
