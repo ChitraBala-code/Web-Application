@@ -5,18 +5,18 @@ st.set_page_config(page_title="Data manager", page_icon=":material/edit:", layou
                    )
 # --- PAGE SETUP ---
 about_page =st.Page(
-    "C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/deploy/about_me.py",
+    "/deploy/about_me.py",
     title="About Me",
     icon=":material/account_circle:",
     default=True,
 )
 project_1_page = st.Page(
-    "C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/deploy/sales_dashboard.py",
+    "/deploy/sales_dashboard.py",
     title="Sales Dashboard",
     icon=":material/bar_chart:",
 )
 project_2_page = st.Page(
-    "C:/Users/Elcot/PycharmProject/pythonProject/Web-Application/deploy/chatbot.py",
+    "/deploy/chatbot.py",
     title="Chat Bot",
     icon=":material/smart_toy:",
 )
